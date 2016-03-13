@@ -1,0 +1,38 @@
+h1{
+	color:blue;
+}
+h2{
+	font-size:14px;
+}
+p{
+	text-indent:100px;
+	/*text-transform:capitalize;*/
+	/*text-transform:uppercase;*/
+	/*text-transform:inherit;*/
+	/*text-decoration:overline;*/
+	/*text-decoration:underline;*/
+	/*text-decoration:line-through;*/
+	/*text-decoration:blink;*/
+	/*text-align:center;*/
+	/*text-align:justify;*/
+	/*word-spacing:80px;*/
+	/*white-space:nowrap;*/
+	/*white-space:pre;*/
+	white-space:pre-wrap;
+}
+p {font: italic 75%/125% "Comic Sans MS", cursive;}
+/*顺序：font-style | font-variant | font-weight | font-size | line-height | font-family
+1、简写时，font-size和line-height只能通过斜杠/组成一个值，不能分开写。
+2、顺序不能改变.这种简写方法只有在同时指定font-size和font-family属性时才起作用。
+而且，如果你没有设定font-weight, font-style, 以及 font-varient ，他们会使用缺省值*/
+img{
+	border-style:solid;
+	border-width: 2px;
+	border-color:red;
+}
+body {
+	font: 16px "Comic Sans MS", cursive;
+	/*line-height:200%;*/
+	line-height:1.9;
+}
+

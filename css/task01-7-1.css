@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family:Arial,"STSong";
+}
+body{
+	background-color: #eeeeee;
+}
+.header{
+	width:100%;
+	background-color: #522a5c;
+	height:80px;
+	position: relative;
+}
+.cont{
+	width:980px;
+	margin:0 auto;
+}
+.forbottom{
+	position: relative;
+	height:80px;
+	margin:0 auto;
+}
+.hContent{
+	width:980px;
+	bottom:5px;
+	left:0px;
+	position:absolute;
+	display: inline;
+	background-color: #522a5c;
+}
+.lText{
+	float:left;
+	font-size:18px;
+	color:#fff;
+}
+ul{
+	list-style: none;
+	color:#fff;
+}
+li{
+	display:inline;
+	margin-left:28px;
+	float:right;
+}
+.imggit{
+	position:absolute;
+	bottom:0px;
+	right: 10px;
+}
+.transbox{
+	display:inline-block;
+	float:right;
+	margin-top: 400px;
+	padding:10px 10px 30px 10px;
+	width:360px;
+	height:120px;
+	margin-top: 400px;
+	background-color: #fff;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom, rgba(255,255,255,.5), rgba(255,255,255,0)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,.5), rgba(255,255,255,0)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom, rgba(255,255,255,.5), rgba(255,255,255,0)); /* 标准的语法（必须放在最后） */
+}
+.tit{
+	font-size: 14px;
+	float:right;
+	margin-bottom:12px;
+}
+.text{
+	font-size: 12px;
+	line-height: 150%;
+}
+.bgimg{
+	background: url(../img/banner-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+}
+.bgimg:after{
+	content:"";
+	display:block;
+	padding-bottom:43%;
+}
+.show{
+	display: inline-block;
+	width:auto;
+}
+.show1{
+	margin-left: 6px;
+	/*margin-top: 10px;*/
+	margin-top:40px;
+	width:320px;
+	/*float:left;*/
+	float: right;
+	background-color: #fff;
+	padding:10px;
+	box-sizing:border-box;
+}
+.text2{
+	font-size: 12px;
+	line-height: 120%;
+	margin:0 auto;
+	margin-top:15px;
+	margin-bottom: 20px;
+	text-indent:2em;
+	width:260px;	
+}
+.img1{
+	width: 300px;
+	height:180px;
+}
+
+.footer{
+	width:100%;
+	height:521px;
+	background-color: #fff;
+	margin-top: 388px;
+}
+.img2{
+	width:160px;
+	height:160px;
+	border-radius: 80px;
+	margin:0 auto;
+}
+.text3{
+	font-size: 20px;
+	font-family:"Gentury Gothic",arial,sans-serif;
+	text-align: center;
+	margin-top: 48px;
+}
+.text4{
+	display: inline-block;
+	width:600px;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
